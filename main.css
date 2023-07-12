@@ -4,7 +4,9 @@ body {
 
 .name {
   text-align: center;
-  font-size: 30px;
+  font-size: 30px; 
+  color: darkmagenta;
+  font-family: Trattatello, fantasy;
 }
 
 hr {
@@ -15,9 +17,12 @@ hr {
 .contact {
   text-align: center;
   font-size: 20px;
+  color: rgb(58, 93, 190);
+  font-family: Luminari, fantasy
 }
 
 .experience {
   text-align: left;
   font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
