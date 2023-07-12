@@ -18,11 +18,39 @@ hr {
   text-align: center;
   font-size: 20px;
   color: rgb(58, 93, 190);
-  font-family: Luminari, fantasy
+  font-family: monospace;
 }
 
 .experience {
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adtalem {
+  text-align: left;
+  color: firebrick;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.adtalem-timeframe {
+  text-align: right;
+  color: firebrick;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.chamberlain {
+  text-align: left;
+  color: firebrick;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.chamberlain-timeframe {
+  text-align: right;
+  color: firebrick;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
 }
