@@ -1,5 +1,6 @@
 body {
   background-color: rgb(231, 165, 143);
+  padding: 25px;
 }
 
 .name {
@@ -53,4 +54,25 @@ hr {
   color: firebrick;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
+}
+
+.chamberlain-SSA {
+  text-align: left;
+  color: firebrick;
+  font-size: 12px;
+  font-family: Trattatello, fantasy;
+}
+
+.chamberlain-SSA-timeframe {
+  text-align: right;
+  color: firebrick;
+  font-family: Trattatello, fantasy;
+  font-size: 10px;
+}
+
+ul {
+  text-align: left;
+  color: chartreuse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
