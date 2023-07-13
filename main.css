@@ -12,7 +12,61 @@ body {
   color: rgb(143, 235, 38);
   font-family: Trattatello, fantasy;
   border-style: ridge;
-  border-width: 5px
+  border-width: 5px;
+  
+}
+
+.btn-hired {
+  text-align: center;
+}
+
+
+button {
+  width: 20%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor:crosshair;
+  color: rgb(143, 235, 38);
+  background-color: blueviolet;
+}
+
+.hidden {
+  display: none;
+}
+
+#hirebtn-text {
+  height: 72px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #ddd;
+  font-weight: bold;
+  text-align: center;
+  line-height: 72px;
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  background-color: blueviolet;
+}
+
+.popup-message {
+  animation: popup 3s forwards;
+}
+
+@keyframes popup {
+  0% {
+    transform: translateY(1000%);
+    opacity: 0;
+  }
+  10%, 90% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(50%);
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 hr {
